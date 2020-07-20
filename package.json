@@ -1,0 +1,19 @@
+{
+  "name": "toyreact",
+  "version": "1.0.0",
+  "description": "ToyReact project",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyongming/ToyReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoyongming/ToyReact/issues"
+  },
+  "homepage": "https://github.com/xiaoyongming/ToyReact#readme"
+}
