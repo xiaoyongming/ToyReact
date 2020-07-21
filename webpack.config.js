@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
     entry: {
         main: './main.js'
     },
@@ -9,10 +9,10 @@ module.export = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        preset: ['@babel/preset-env'],
+                        presets: ['@babel/preset-env'],
                         plugins: [[
                             '@babel/plugin-transform-react-jsx',
-                            {pragma:"ToyReact.createElement"}
+                            { pragma: "ToyReact.createElement" }
                         ]]
                     }
                 }
@@ -20,7 +20,7 @@ module.export = {
         ]
     },
     mode: "development",
-    optimization:{
+    optimization: {
         minimize: false
     }
 }
